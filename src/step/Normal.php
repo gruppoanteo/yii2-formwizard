@@ -14,6 +14,12 @@ class Normal
      */
     public $models;
 
+    /** @var array config dello step, assegnata da Generator via Yii::createObject (proprieta' dinamiche deprecate da PHP 8.2) */
+    public $stepConfig;
+
+    /** @var array opzioni del form, assegnate da Generator */
+    public $formOptions;
+
     /**
      * @var mixed
      */
